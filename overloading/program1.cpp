@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 using namespace std;
 class Car {
@@ -22,4 +23,30 @@ int main(){
     cout<<"Car3 :"<<car3.brand<<" "<<car3.model<<"\n";
      return 0;
 
+=======
+#include <iostream>
+using namespace std;
+class Car {
+    public:
+    string brand;
+    string model;
+    Car(){
+      brand="unknown";
+      model="unknown";
+ }
+ Car(string b, string m){
+    brand=b;
+    model=m;
+ }
+};
+int main(){
+    Car car1;
+    Car car3("Ford","mustang");
+    Car car2("BMW","X5");
+    cout<<"Car1 :"<<car1.brand<<" "<<car1.model<<"\n";
+    cout<<"Car2 :"<<car2.brand<<" "<<car2.model<<"\n";
+    cout<<"Car3 :"<<car3.brand<<" "<<car3.model<<"\n";
+     return 0;
+
+>>>>>>> 541d1f9121813072f4deb8691c010d5ae2537063
 } 
